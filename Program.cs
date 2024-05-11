@@ -124,7 +124,7 @@ public class SmartHomeSystem
 		MotionSensor motionSensor = new MotionSensor(1);
 		DoorSensor doorSensor = new DoorSensor(2);
 		Thermostat thermostat = new Thermostat(3);
-
+		//change
 		motionSensor.DetectMotion(eventHub);
 		doorSensor.OpenDoor(eventHub);
 		thermostat.ChangeTemperature(eventHub, 25.5);
